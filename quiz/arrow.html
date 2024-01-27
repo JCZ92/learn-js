@@ -13,7 +13,7 @@
         const obj = {
             msg: 'Hello World',
             hello:  () => {
-                document.getElementById('demo').innerHTML += this.msg;
+                document.getElementById('demo').innerHTML += obj.msg;
             }
         };
         window.addEventListener('load', () => {
